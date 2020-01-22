@@ -47,10 +47,10 @@ class MainApp(App):
         if button_text == 'C':
             self.solution.text = ''
         else:
-            # Проверка на нажатие двух операторов подряд
+            # For pressing two operators in a row
             if current and (self.last_button_was_operator and (button_text in self.operators)):
                 return
-            # Проверка на то, является ли первый символ оператором
+            # If the first character is an operator
             elif current == '' and button_text in self.operators:
                 return
             else:
