@@ -1,0 +1,13 @@
+i - я
+you - ты
+he - он
+she - она
+it - оно
+we - мы
+they - они
+after - после
+before - до
+body - тело
+boy - мальчик
+child - ребенок
+eye - глаз
