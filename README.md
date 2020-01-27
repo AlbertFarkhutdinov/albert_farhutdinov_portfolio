@@ -20,7 +20,27 @@ Welcome! My name is Albert Farhutdinov. This is my portfolio. I collect here var
 
 ### Descriptions
 
-This section is not ready yet.
+The Python directory contains the following folders and scripts:
+
+#### console_manager
+#### kivy_calculator
+#### matplotlib
+#### vocabulary
+#### yandex_music_chart
+#### bulls_and_cows.py
+#### equation.py
+#### gauss.py
+#### guess_number_part_1.py
+#### guess_number_part_2.py
+#### hexadecimal_calculator.py
+#### input_functions.py
+#### integral.py
+#### is_it_prime.py
+#### russian_roulette.py
+#### sorters.py
+#### sorters_creators.py
+#### tabulation.py
+
 
 ## JavaScript
 
