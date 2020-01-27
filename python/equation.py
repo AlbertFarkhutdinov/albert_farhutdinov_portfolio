@@ -1,5 +1,6 @@
 # the script works for equations with one root
 import math
+from input_functions import get_float_number
 
 
 # Methods of solution
@@ -77,14 +78,8 @@ def current_derivative_2(argument):
 if __name__ == '__main__':
     current_accuracy = 1e-6
     print('\nEquation:\n3 * x - 4 * ln(x) - 5 = 0\n')
-    min_value = -1
-    max_value = -2
-
-    while min_value <= 0:
-        min_value = float(input('Input x(min) > 0:\n'))
-
-    while max_value <= min_value:
-        max_value = float(input('Input x(max) > x(min):\n'))
+    min_value = get_float_number('Input x(min) > 0', minimum=current_accuracy)
+    max_value = get_float_number('Input x(max) > x(min)', minimum=min_value + current_accuracy)
 
     results = {
         'Half Division Method': half_division_method(current_function, min_value, max_value, current_accuracy),
