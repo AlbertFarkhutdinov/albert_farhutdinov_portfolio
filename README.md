@@ -81,19 +81,27 @@ There are useful functions, which check numbers inputted by user. If user inputs
 
 #### integral.py
 
-This section is not ready yet.
+This is the script to find definite integral of function f(x) = x * ln(1 + x^3) by rectangle (lower and upper sums), trapezium and Simpson's parabolic methods. The scipt also can work with other functions.
 
 #### is_it_prime.py
-This section is not ready yet.
-#### russian_roulette.py
-This section is not ready yet.
-#### sorters.py
-This section is not ready yet.
-#### sorters_creators.py
-This section is not ready yet.
-#### tabulation.py
-This section is not ready yet.
 
+There is the function, which checks if it's argument is a prime number.
+
+#### russian_roulette.py
+
+The game "Russian roulette".
+
+#### sorters.py
+
+There are functions for sorting and reversing of number arrays, which are not built in Python. The script includes bubble, selection, insertion sorter, Shell sorter, Hoare's quick sorters and array reverser. All functions do not return new array, but change initial one.
+
+#### sorters_creators.py
+
+The same, that in sorters.py, however all functions return new array without changing initial one.
+
+#### tabulation.py
+
+Tabulation of function f(x) = A * x^2 on interval beetween two values inputted by user. Value of parameter A is also inputted by user.  The scipt also can work with other functions.
 
 ## JavaScript
 
