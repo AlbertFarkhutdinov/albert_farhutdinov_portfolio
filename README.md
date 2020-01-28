@@ -52,15 +52,25 @@ There is file "songs.xls" with two columns: singers and songs. The script "yande
 Before you run it, read "Requirements".
 
 #### bulls_and_cows.py
-This section is not ready yet.
+
+This is the game "Bulls and Cows". The computer makes up a 4-digit number. You have to guess this number. The computer gives a clue in the form of bulls and cows after each attempt. This is a bull, if you guessed both a digit and its position in the number. This is a cow, if you guessed a digit of the number, but not its position. Thus, the goal of the game is to get the number of bulls equal to 4.
+
 #### equation.py
-This section is not ready yet.
+
+This the solution of equation "3 * x - 4 * ln(x) - 5 = 0" by three methods: half division, Newton and iteration methods. The scipt also can work with another equation with one root.
+
 #### gauss.py
-This section is not ready yet.
+
+This is the solution of systems of linear equations by Gauss method. The scipt works for system with one solution.
+
 #### guess_number_part_1.py
-This section is not ready yet.
+
+Game "Guess the number". Users guess the number from 1 to 100, that made up by the computer.
+
 #### guess_number_part_2.py
-This section is not ready yet.
+
+'Game "Guess the number". Computer guesses the number, that made up by the user.'
+
 #### hexadecimal_calculator.py
 This section is not ready yet.
 #### input_functions.py
