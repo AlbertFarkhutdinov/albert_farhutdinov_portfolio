@@ -35,9 +35,13 @@ Then input:
 You will see the list of available commands, which you can input instead of "help". Some of them also require to input name of file or folder to be created, copied or deleted.
 
 #### kivy_calculator
-This section is not ready yet.
+
+Calculator with basic arithmetic operations, created with Kivy library. Before you run it, read "Requirements".
+
 #### matplotlib
-This section is not ready yet.
+
+There are 4 small tasks for mathematical statistics. Task conditions described in the scripts comments. Before you run it, read "Requirements".
+
 #### vocabulary
 This section is not ready yet.
 #### yandex_music_chart
