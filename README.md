@@ -23,7 +23,17 @@ Welcome! My name is Albert Farhutdinov. This is my portfolio. I collect here var
 The Python directory contains the following folders and scripts:
 
 #### console_manager
-This section is not ready yet.
+
+The console manager contains functions for creating, copying and deleting files and folders, obtaining a list of files in the working directory and changing the directory. The script "core.py" contains descriptions of these functions. The script "main.py" contains the work logic of the manager. To run the manager, go to "console_manager" directory:
+
+	cd console_manager
+	
+Then input:
+
+	python main.py help
+	
+You will see the list of available commands, which you can input instead of "help". Some of them also require to input name of file or folder to be created, copied or deleted.
+
 #### kivy_calculator
 This section is not ready yet.
 #### matplotlib
