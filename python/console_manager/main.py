@@ -17,8 +17,8 @@ def main():
                 get_list(folders_only=True)
             elif sys.argv[2] == 'files':
                 get_list(files_only=True)
-            else:
-                get_list()
+        else:
+            get_list()
     elif command == 'create_file':
         try:
             name = sys.argv[2]
