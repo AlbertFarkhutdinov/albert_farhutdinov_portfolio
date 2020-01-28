@@ -72,11 +72,17 @@ Game "Guess the number". Users guess the number from 1 to 100, that made up by t
 'Game "Guess the number". Computer guesses the number, that made up by the user.'
 
 #### hexadecimal_calculator.py
-This section is not ready yet.
+
+This is the script, which can sum and multiply two hexadecimal numbers, that user inputs.
+
 #### input_functions.py
-This section is not ready yet.
+
+There are useful functions, which check numbers inputted by user. If user inputs unacceptable value, a code with one of these functions continues work and gives new attempt for input.
+
 #### integral.py
+
 This section is not ready yet.
+
 #### is_it_prime.py
 This section is not ready yet.
 #### russian_roulette.py
