@@ -44,10 +44,13 @@ There are 4 small tasks for mathematical statistics. Task conditions described i
 
 #### vocabulary
 
-Vocabulary.py is the script for training english words. It uses words from vocabulary.txt, where you can write you words in the form "english_word - translation".
+"Vocabulary.py" is the script for training english words. It uses words from vocabulary.txt, where you can write you words in the form "english_word - translation".
 
 #### yandex_music_chart
-This section is not ready yet.
+
+There is file "songs.xls" with two columns: singers and songs. The script "yandex_music_chart" compars songs from this file with songs in chart on [music.yandex.ru](https://music.yandex.ru/chart). If there are coincidences, the script shows where it is in the chart list.  If song from "songs.xls" is not in chart list, it prints in "Not Found" section. 
+Before you run it, read "Requirements".
+
 #### bulls_and_cows.py
 This section is not ready yet.
 #### equation.py
