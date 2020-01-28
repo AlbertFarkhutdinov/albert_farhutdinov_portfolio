@@ -43,7 +43,9 @@ Calculator with basic arithmetic operations, created with Kivy library. Before y
 There are 4 small tasks for mathematical statistics. Task conditions described in the scripts comments. Before you run it, read "Requirements".
 
 #### vocabulary
-This section is not ready yet.
+
+Vocabulary.py is the script for training english words. It uses words from vocabulary.txt, where you can write you words in the form "english_word - translation".
+
 #### yandex_music_chart
 This section is not ready yet.
 #### bulls_and_cows.py
