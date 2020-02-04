@@ -1,0 +1,48 @@
+#container {
+    margin: 30px auto;
+    text-align: center;
+    width: 400px;
+}
+
+#snake_field {
+    display: inline-block;
+}
+
+#snake_renew,
+#snake_start {
+    width: 150px;
+    padding: 15px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+}
+
+#game_table {
+    border-collapse: collapse;
+    background-color: #3e3e3e;
+}
+
+td.game_table_cell {
+    width: 15px;
+    height: 15px;
+    border: 1px dotted #eee;
+}
+
+.snake_unit {
+    background-color: white;
+}
+
+.food_unit {
+    background-color: green;
+}
+
+.bomb_unit {
+    background-color: red;
+}
+
+.buttons {
+    display: inline-block;
+}
