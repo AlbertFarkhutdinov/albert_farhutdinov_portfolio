@@ -105,4 +105,43 @@ Tabulation of function f(x) = A * x^2 on interval beetween two values inputted b
 
 ## JavaScript
 
-This section is not ready yet.
+### Requirements
+
+JavaScript projects do not have special requirements.
+
+### Descriptions
+
+The JS directory contains the following folders:
+
+#### bullsAndCows
+
+This is the browser game "Bulls and Cows". The computer makes up a 4-digit number. You have to guess this number. The computer gives a clue in the form of bulls and cows after each attempt. This is a bull, if you guessed both a digit and its position in the number. This is a cow, if you guessed a digit of the number, but not its position. Thus, the goal of the game is to get the number of bulls equal to 4.
+
+#### chess
+
+This is the chess board with chess figures.
+
+#### guessNumber
+
+This is the browser game "Guess the number". Users guess the number from 1 to 100, that made up by the computer.
+
+#### millionare
+
+This is the browser game "Who wants to be a millionare".
+
+#### quest
+
+This is demo of the browser quest game.
+
+#### race
+
+This is the browser game "Race".
+
+#### snake
+
+This is the browser game "Snake".
+
+#### ticTacToe
+
+This is the browser game "Tic-Tac-Toe".
+
