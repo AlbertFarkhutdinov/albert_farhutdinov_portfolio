@@ -48,7 +48,8 @@ class MainApp(App):
             self.solution.text = ''
         else:
             # For pressing two operators in a row
-            if current and (self.last_button_was_operator and (button_text in self.operators)):
+            is_button = button_text in self.operators
+            if current and (self.last_button_was_operator and is_button):
                 return
             # If the first character is an operator
             elif current == '' and button_text in self.operators:
@@ -59,7 +60,7 @@ class MainApp(App):
         self.last_button = button_text
         self.last_button_was_operator = self.last_button in self.operators
 
-    def on_solution(self, instance):
+    def on_solution(self, _):
         text = self.solution.text
         if text:
             solution = str(eval(self.solution.text))
